@@ -1,0 +1,75 @@
+ 
+
+
+body{
+    background-image:url('https://th.bing.com/th/id/Rd56e18bcc60cc9305415ca65b79156e5?rik=smZyeD2HTd4Urg&pid=ImgRaw');
+    background-position: center;
+
+}
+
+.container .nav{
+    position: sticky;
+    top: 0;
+    background-color:rgb(255, 133, 204);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    align-items: center;
+    opacity:80%;
+    box-shadow: 1px 2px 3px 3px #ffbdf1;
+    
+}
+.nav a {
+    margin-right: 150px;
+
+}
+.container :hover {
+    transform: scale(1.03);
+
+}
+header h3{
+color:rgb(87, 86, 85);
+font-family: Dancing Script;
+font-weight: 80px;
+ 
+}
+nav {
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 100px;
+    color: rgb(0, 0, 0);
+
+}
+nav a:hover {
+    color:#747474;
+}
+.contact{
+    color : whitesmoke;
+    height: 50%;
+    width: 40%;
+    box-shadow: 2px 4px 4px 5px rgb(177, 177, 177);
+    padding: 20px;
+    margin : 100px;
+    border-radius: 10px;
+}
+.contact:hover {
+    transform: scale(1.03);
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+button{
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+}
